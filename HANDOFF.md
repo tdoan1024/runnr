@@ -21,7 +21,9 @@ Updated: 2026-11-13 (America/Los_Angeles)
 - `AGENTS.md`: continuity rules for future sessions.
 
 ## Next session
-Latest steering: athlete-specific visual performance analysis is the essential value. User does not want to pivot to generic running guidelines. Investigate browser-local pose estimation (MediaPipe) as a free alternative; it supports image/video landmarks, but running measurements and useful feedback remain unvalidated. This is a proposal, not an approved architecture. The existing cloud-first design needs revision if selected.
+Latest steering: athlete-specific visual performance analysis is the essential value; generic guidelines are not an acceptable pivot. User is concerned about browser inference performance and wants substantive AI model work. Browser pose estimation is an AI model, but local-only inference is not an accepted architecture. Prefer investigating hosted inference with suitable personal-media terms and free or explicitly approved usage-based costs. No new budget has been authorized. Need an evidence-based provider comparison before changing the design.
+
+Workflow: every change, including documentation, goes through a feature branch and PR. Never commit directly to main. Current branch: `codex/analysis-direction-and-pr-workflow`.
 
 1. Read this file and the design; inspect git status before editing.
 2. Resolve the design's free-provider/personal-media constraint with the user and obtain design approval.
