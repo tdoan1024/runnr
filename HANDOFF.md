@@ -21,6 +21,8 @@ Updated: 2026-11-13 (America/Los_Angeles)
 - `AGENTS.md`: continuity rules for future sessions.
 
 ## Next session
+Latest steering: athlete-specific visual performance analysis is the essential value. User does not want to pivot to generic running guidelines. Investigate browser-local pose estimation (MediaPipe) as a free alternative; it supports image/video landmarks, but running measurements and useful feedback remain unvalidated. This is a proposal, not an approved architecture. The existing cloud-first design needs revision if selected.
+
 1. Read this file and the design; inspect git status before editing.
 2. Resolve the design's free-provider/personal-media constraint with the user and obtain design approval.
 3. Write the implementation plan, then begin the small video feasibility experiment before building the full app.
